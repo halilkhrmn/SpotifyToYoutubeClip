@@ -18,9 +18,5 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-  "permissions": [
-    "activeTab",
-    "storage",
-    "https://ajax.googleapis.com/"
-  ]
+  "permissions": ["activeTab","webNavigation","tabs","https://open.spotify.com/*"]
 }
