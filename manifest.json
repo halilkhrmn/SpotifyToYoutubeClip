@@ -1,13 +1,11 @@
 {
   "manifest_version": 2,
   "name": "Spotify Youtube Video Link",
-  "version": "0.1",
-  "background": {
-    "scripts": ["background.js"]
-  },
-  "content_scripts": [
+  "description": "Testing Plugin",
+  "version": "1.0",
+  "content_scripts":[
     {
-      "matches": [
+      "matches":[
         "https://open.spotify.com/*"
       ],
       "js": ["content.js"]
@@ -15,5 +13,14 @@
   ],
   "browser_action": {
     "default_icon": "icon.png"
-  }
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://ajax.googleapis.com/"
+  ]
 }
