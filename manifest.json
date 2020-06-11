@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Spotify Youtube Video Link",
-  "description": "Testing Plugin",
+  "name": "Spotify Youtube Video Quick Search",
+  "description": "Chrome addon puts Youtube video link in to your spotify playlists",
   "version": "1.0",
   "content_scripts":[
     {
